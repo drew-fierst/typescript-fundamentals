@@ -1,0 +1,13 @@
+{
+  "name": "typescript-fundamentals",
+  "version": "1.0.0",
+  "scripts": {
+  },
+  "private": false,
+  "dependencies": {
+  },
+  "devDependencies": {
+    "typescript": "~2.7.2",
+    "tslint": "~5.9.1"
+  }
+}
