@@ -1,0 +1,15 @@
+In this exercise, you will create a simple class to store and manipulate a stack data structure containing numbers.
+
+1. In the file stack.ts, create a class called Stack that encapsulates the _elements array as a stack of numbers.
+
+The class should contain:
+* The _elements array, marked private or protected.
+* push() and pop() methods to call the corresponding methods of the array
+* a getSize() method that returns the length of the array
+* a toString() method that concatenates the elements in order from top to bottom (be sure elements are in the correct order!).
+
+5. Create a new stack and put it into a variable called s.  Push the numbers 1, 2, and 3, in order, into the stack.
+
+6. Print the result of the stack's toString() method to the console.
+
+7. Compile and run the code. make sure there are no errors and the output is as expected.

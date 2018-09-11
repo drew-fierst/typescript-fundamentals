@@ -1,0 +1,11 @@
+In this exercise you will add to the previous solution, creating an array of numbers 
+for use in future exercises and adding type annotations to your code.
+
+1. In myGreeting.ts, create an array called _elements that stores only elements of type number.
+	You will use it to create a number stack in future exercises.
+
+2. Assign an array with the numbers 1, 2, and 3 to _elements, and print the array contents to the console.
+
+3. Add type annotations to your code wherever possible for maximum type safety.
+
+4. Compile your code and run it.  Make sure there are no errors and the output is as expected.

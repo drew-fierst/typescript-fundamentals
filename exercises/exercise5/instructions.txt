@@ -1,0 +1,11 @@
+In this exercise, you will use generics to allow Stack instances to specify what type of data they can contain.
+
+1. In the file stack.ts, add a T type parameter to the class.  Be sure to put the type parameter in all the necessary locations to ensure type safety.
+
+2. For the stack variable, specify the type Printable as the type parameter.
+
+3. Compile and run the code.  Make sure there are no errors and the output is as expected.
+
+4. Change the type parameter to number and compile the code.  There will be an error because the stack only accepts strings, not numbers.
+
+5. Comment out the line that pushes the string onto the stack, and then repeat step 3.

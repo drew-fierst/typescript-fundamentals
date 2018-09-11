@@ -1,0 +1,9 @@
+In this exercise, you will change the Stack class to accept any object that can be converted to a string.
+
+1. Create an interface called Printable that contains one method, toString(), accepting no parameters and returning string.
+
+2. Change the Stack class so it references the Printable interface instead of type number.
+
+3. After the code to push the numbers onto the stack, add code to push the string "Tim" onto the stack.
+
+4. Compile and run the code.  Make sure there are no errors and the output is as expected.  Observe that the stack can now hold any type with a toString() method.

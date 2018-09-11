@@ -1,0 +1,24 @@
+In this exercise we will set up TypeScript via npm (part of node.js) and test the installation by writing a very simple program.
+
+1. Install node.js, if it is not already installed, by downloading it from www.nodejs.org.
+
+* Make sure node.js is in your path so you can run it from anywhere.
+
+2. Open a command prompt and type the following to install TypeScript:
+npm install -g typescript
+
+3. In the file myGreeting.ts, write code to do the following:
+
+* Use 'let' to declare a variable containing your first name.
+* Write an arrow function that accepts a first name as a parameter and returns a template string with a greeting containing the parameter.  Store it in the variable 'greeter' using the 'let' command.
+* Use 'console.log' to call and print the return value of the greeter function with your name as parameter.
+
+4. Open a command prompt and run the following command to compile your program:
+tsc myGreeting.ts
+
+4. If there are any compiler errors, go back and fix them.  Otherwise, enter the following command to run your program:
+node myGreeting.js
+
+* Be sure to correct any runtime errors and make sure the output is what you would expect.
+
+5. Compare the original myGreeting.ts and the compiled myGreeting.js, and notice the similarities and differences.
